@@ -20,15 +20,12 @@ class Calculadora {
 }
 
 function calcular() {
-
 	const form = document.getElementById("form-calculadora");
-
 	const primeiroValor = parseFloat(form.primeiroValor.value);
 	const segundoValor = parseFloat(form.segundoValor.value);
+	const resultado = document.getElementById("resultado");
 
 	const calc = new Calculadora(primeiroValor, segundoValor);
-
-	const resultado = document.getElementById("resultado");
 
 	if (primeiroValor && segundoValor) {
 		resultado.innerText = `${calc.createJSON()}`;
