@@ -1,0 +1,1 @@
+setTimeout(() => { console.log("Esperando 5 segundos para aparecer...") }, 5000);
