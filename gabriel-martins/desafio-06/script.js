@@ -1,4 +1,4 @@
-const apiURL = "https://jsonplaceholder.typicode.com/uers";
+const apiURL = "https://jsonplaceholder.typicode.com/users";
 const usersList = document.getElementById("users-list");
 const loading = document.createElement("div");
 const loadingText = document.createElement("p");
@@ -21,7 +21,7 @@ function getUsers(searchValue = "") {
 		.then((data) => {
 			setTimeout(() => {
 				loading.remove();
-			}, 500);
+			}, 650);
 
 			usersList.innerHTML = "";
 
