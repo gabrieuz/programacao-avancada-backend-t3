@@ -1,0 +1,11 @@
+{
+  "name": "programacao-avancada-backend-t3",
+  "version": "1.0.0",
+  "description": "Repositório pessoal para os exercícios e projetos do curso de Programação Avançada Back-end da WebAcademy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Martins",
+  "license": "ISC"
+}
