@@ -1,0 +1,11 @@
+{
+  "name": "project-logger",
+  "version": "1.0.0",
+  "description": "Projeto Logger da Disciplina Programação Avançada Backend.",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Martins",
+  "license": "ISC"
+}
