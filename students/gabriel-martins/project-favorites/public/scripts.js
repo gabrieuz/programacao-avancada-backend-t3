@@ -37,7 +37,15 @@ function addElement({ name, url }) {
     list.appendChild(li);
 }
 
-addElement("Nome Teste", "https://linkteste.com")
+// Mock de dados
+const links = [
+    { name: "Google", url: "https://google.com" },
+    { name: "Instagram", url: "https://instagram.com" },
+    { name: "Facebook", url: "https://facebook.com" },
+];
+
+// Iterando os links e adicionando no frontend
+links.map(({ name, url }) => addElement({ name, url }));
 
 function removeElement(element) {
 	// criem os códigos
